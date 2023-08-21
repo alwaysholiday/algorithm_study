@@ -1,8 +1,8 @@
 package src.test.cuPlay.five;
 
 public class Solution {
-    // input comes like 3[a2[c]]ef -> accaccaccef
-    // 48, 57
+    // input 3[a2[c]]ef
+    // output accaccaccef
     int currentIndex = 0;
     public String parseStr(String inputStr){
         StringBuilder builder = new StringBuilder();
